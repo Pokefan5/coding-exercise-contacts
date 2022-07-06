@@ -11,7 +11,7 @@
     - [Example Usage](#example-usage-2)
   - [Delete](#delete)
     - [Example Usage](#example-usage-3)
-  - [Authors Notes](#authors-notes)
+  - [Author's Notes](#authors-notes)
 
 ## About
 This Laravel project implements the ability Create / Read / Update / Delete (CRUD) Contacts in a MySQL database via API calls.
@@ -199,7 +199,7 @@ Response:
 }
 ```
 
-## Authors Notes
+## Author's Notes
 This was the very first time I have worked with Laravel so I have to assume some of my approaches were less than optimal as they're heavily based on the example-app provided when creating a new Laravel application, the [documentation](https://laravel.com/docs/9.x/) as well as [Laravel 8 From Scratch](https://laracasts.com/series/laravel-8-from-scratch).
 
 I have decided on the `http://<url>/api/v1/<etc>` URL due to having worked with a few APIs in the past which ranged from v1 all the way to v10.
