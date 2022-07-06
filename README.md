@@ -18,6 +18,20 @@ This Laravel project implements the ability Create / Read / Update / Delete (CRU
 
 All example data used in this README was provided by https://www.fakenamegenerator.com
 
+The files I mainly worked on can be found in:
+```
+coding-exercise-contacts
+|
+|--app
+|   `-Models
+|      `-Contact.php
+|--database
+|  `-migrations
+|     `-2022_07_05_105654_create_contacts_table.php
+|--routes
+|  `-api.php
+```
+
 ## Create
 Creating a new contact is done via a POST request to `http://<url>/api/v1/contact/create` and has to contain **all** data required for a new contact.
 
